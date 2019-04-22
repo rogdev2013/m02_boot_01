@@ -4,3 +4,8 @@ class Perro():
         self.edad = edad
         self.peso = peso
         
+    def ladrar(self):
+        if self.peso>=8:
+            print("GUAO,GUAO,GUAO")
+        else:
+            print("guao,guao")
